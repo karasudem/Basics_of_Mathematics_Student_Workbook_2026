@@ -1,4 +1,7 @@
-### Exercise 1. Matrix Size and Entries
+# Exercise 1. Matrix Size and Entries – Solution
+
+## 1. Problem Statement
+
 Given
 
 $$
@@ -20,7 +23,13 @@ $$
 
 > **Why this exercise:** builds basic fluency with matrix notation, indices, rows, and columns.
 
-### Solution – Exercise 1. Matrix Size and Entries
+## 2. Theoretical Background and Concepts
+
+- A **matrix** of size $m\times n$ is a rectangular array of numbers with $m$ rows and $n$ columns.
+- The entry in row $i$ and column $j$ is denoted $a_{ij}$: the **first index is the row**, the **second index is the column**.
+- A single row of a matrix is a **row vector** ($1\times n$), and a single column is a **column vector** ($m\times1$).
+
+## 3. Detailed Step-by-Step Solution
 
 **1. Matrix sizes**
 
@@ -53,11 +62,13 @@ $$
 The first column of $B$ is
 
 $$
-\begin{pmatrix} 1 \\ -2 \\ 4 \end{pmatrix}.
+\begin{pmatrix} 1 \\
+-2 \\
+4 \end{pmatrix}.
 $$
 
-**Verification**
+**Method used:** index notation $a_{ij}$ (first index = row, second index = column).
+
+## 4. Verification and Consistency Checks
 
 The row vector has 3 entries (= number of columns of $A$), and the column vector has 3 entries (= number of rows of $B$), which agrees with the sizes found in part 1.
-
-**Method used:** index notation $a_{ij}$ (first index = row, second index = column).
